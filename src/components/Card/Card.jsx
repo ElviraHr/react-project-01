@@ -1,3 +1,4 @@
+import { user } from "../../homeworks/Homework02/data";
 import "./styles.css"
 
 
@@ -9,9 +10,9 @@ function Card(){
         <h3 className="card_title">User card: {user.fullName}</h3>
         <img className="avatar" src={user.avatarURL} alt="Users avatar" />
       {/* // <p className="card-info">First and last name: {user.fullName}</p> */}
-        <p className="card-info">type of activity: {user.activity}</p>
-        <p className="card-info">Hobby: {user.hobbys}</p>
-       
+        <p className="card-info">Job: {user.activity}</p>
+        <p className="card-info">Hobbys: {user.hobbys}</p>
+    
       </div>
     </div>
 }
