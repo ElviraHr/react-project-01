@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 400px;
+  height: fit-content;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-content: center;
+}
+.card_info {
+  font-size: 24px;
+  color: black;
+}
