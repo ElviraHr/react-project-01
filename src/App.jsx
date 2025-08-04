@@ -1,6 +1,6 @@
 // Lessons
 import Lesson_02 from "./lessons/Lesson_02/Lesson_02";
-
+import Lesson_03 from "./lessons/Lesson_03/Lesson_03";
 // Homeworks
 import Homework02 from "./homeworks/Homework02/Homework02";
 
@@ -10,10 +10,13 @@ function App() {
   
   return (
     <div className="app">
-
+    {/* ============  Lessons ============= */}
       {/* <Lesson_02 /> */}
+      <Lesson_03 />
 
-      <Homework02 />
+
+      {/* ============  Homeworks ============= */}
+      {/* <Homework02 /> */}
 
     </div>
   );
