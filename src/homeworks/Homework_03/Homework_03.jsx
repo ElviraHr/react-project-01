@@ -1,8 +1,8 @@
 import LoginForm from "../../components/LoginForm/LoginForm";
 
 function Homework_03(){
-    return LoginForm;
+    return 
+    <LoginForm />
 }
-
 
 export default Homework_03;
