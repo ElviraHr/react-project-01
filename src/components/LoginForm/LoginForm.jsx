@@ -5,7 +5,7 @@ function LoginForm() {
   //Trigger onClick:
   //функция, прописанная заранее:
   const testFunction = () => {
-    console.log("Vlick Button Test works ");
+    console.log("Click Button Test works ");
   };
 
   const login = (event) => {
